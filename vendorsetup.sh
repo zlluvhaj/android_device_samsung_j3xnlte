@@ -18,6 +18,5 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-for i in eng user userdebug; do
-add_lunch_combo lineage_grandprimeve3g-${i};
-done
+add_lunch_combo lineage_j3xnlte-eng
+add_lunch_combo lineage_j3xnlte-userdebug

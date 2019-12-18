@@ -43,20 +43,20 @@
 	},
 	{
 		"remote": "github",
-		"repository": "remilia15/android_kernel_samsung_sprd-RZ",
-		"target_path": "kernel/samsung/grandprimeve3g",
-		"revision": "cm-14.1"
-	},
-	{
-		"remote": "github",
-		"repository": "remilia15/android_vendor_samsung_grandprimeve3g",
-		"target_path": "vendor/samsung/grandprimeve3g",
-		"revision": "cm-14.1"
-	},
-	{
-		"remote": "github",
 		"repository": "remilia15/android_vendor_samsung_scx30g2-common",
 		"target_path": "vendor/samsung/scx30g2-common",
+		"revision": "cm-14.1"
+	},
+	{
+		"remote": "github",
+		"repository": "zlluvhaj/android_kernel_samsung_sharkls",
+		"target_path": "kernel/samsung/sharkls",
+		"revision": "cm-14.1"
+	},
+	{
+		"remote": "github",
+		"repository": "zlluvhaj/android_vendor_samsung_j3xnlte",
+		"target_path": "vendor/samsung/j3xnlte",
 		"revision": "cm-14.1"
 	}
 ]

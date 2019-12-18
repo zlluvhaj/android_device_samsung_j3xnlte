@@ -1,22 +1,22 @@
-##Device configuration for Samsung Galaxy Grand Prime VE SPRD SM-G531H (grandprimeve3g)
+##Device configuration for Samsung Galaxy J3 (2016)
 
 =====================================
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Quad-core 1,3GHz Cortex-A7
-CHIPSET | Spreadtrum SC7730SE sc8830
-GPU     | Mali-400MP2
+CPU     | Quad-core 1.5 GHz Cortex-A7
+CHIPSET | Spreadtrum SC9830i sc8830
+GPU     | Mali-400
 Memory  | 1 GB
 Shipped Android Version | Android 5.1.1 with TouchWiz Essence
 Storage | 8 GB
-MicroSD | Up to 64 GB
+MicroSD | Up to 256 GB
 Battery | 2600 mAh Li-Ion (removable)
-Dimensions | 144.8 x 72.1 x 8.6 mm
-Display | 540 x 960 pixels, 5.0"
+Dimensions | 142.3 x 71 x 7.9 mm
+Display | 720 x 1280 pixels, 5.0"
 Rear Camera  | 8.0 MP, LED flash
 Front Camera | 5.0 MP
-Release Date | June 2015
+Release Date | January 2016
 
 ##Building instructions
 
@@ -26,6 +26,6 @@ Release Date | June 2015
 
 ### Building steps
 * 1. Sync Android source
-* 2. Copy this file ([grandprimeve3g.xml](https://github.com/koquantam/android_local_manifests/blob/cm-14.1-grandprimeve3g/grandprimeve3g.xml)) to `.repo/local_manifests` (if that folder doesn't exist then "mkdir" it)
+* 2. Copy this file ([j3xnlte.xml](https://github.com/djeman/android_device_samsung_j3xnlte/wiki/Local-manifest-Lineage-15.1)) to `.repo/local_manifests` (if that folder doesn't exist then "mkdir" it)
 * 3. `repo sync` again
 * 5. After sync, type `. build/envsetup.sh && brunch grandprimeve3g`
